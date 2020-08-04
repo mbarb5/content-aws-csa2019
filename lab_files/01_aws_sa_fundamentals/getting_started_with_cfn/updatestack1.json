@@ -1,7 +1,9 @@
 {
   "Resources" : {
     "catpics" : {
-      "Type" : "AWS::S3::Bucket"
+      "Type" : "AWS::S3::Bucket",
+      "Properties": (
+        "BucketName" : "catsareawesome456"
     },
     "dogpics" : {
       "Type" : "AWS::S3::Bucket"
